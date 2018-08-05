@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    background-image: url("../images/dark-triangles.png");
+}
+
+h1, form {
+    color: lightgray;
+}
+
+#faces{
+    width: 50%;
+    float: left;
+}
+#faces2{
+    width: 50%;
+    
+}
+
+button{
+    margin-right: 20px;
+    padding: 8px;
+    width: 102px;
+    margin-top: 20px;
+    border: red 3px solid;
+    font-size: 20px;
+    background: lightgray;
+
+}
+
+#feel-input{
+    width: 286px;
+    font-size: 27px;
+}
+#find-feel{
+    margin-right: 20px;
+    padding: 8px;
+    width: 102px;
+    margin-top: 20px;
+    border: red 3px solid;
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 46px;
+    position: relative;
+    right: 3px;
+    background: lightgray;
+}
+.gif{
+    float: left;
+    margin: 20px;
+}
+p{
+    color:lightgray;
+    font-size: 20px;
+}
+
