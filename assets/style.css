@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Special Elite', cursive;
     
 }
 
@@ -12,6 +12,10 @@ body{
 
 h1, form {
     color: lightgray;
+}
+h1{
+    position: relative;
+    top: 20px;
 }
 
 #faces{
@@ -51,12 +55,14 @@ button{
     right: 3px;
     background: lightgray;
 }
-.gif{
-    float: left;
-    margin: 20px;
+img.gif{
+    text-align:center;
+    margin-left:10%;
 }
 p{
-    color:lightgray;
-    font-size: 20px;
+    color: lightgray;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
 }
 

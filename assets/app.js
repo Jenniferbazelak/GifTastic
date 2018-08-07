@@ -34,13 +34,14 @@ $(document).ready(function () {
             for (var i = 0; i < results.length; i++) {
 
                 var feelDiv = $("<div>");
+                feelDiv.addClass("col-md-4");
                 var p = $("<p>");
                 p.text("Rating: " + results[i].rating);
                 var feelImage = $("<img>");
                 feelDiv.append(p);
                 feelDiv.append(feelImage);
                 $("#gifs-appear-here").prepend(feelDiv);
-                feelImage.addClass("gif");
+                feelImage.addClass("gif mr-10");
                 feelImage.attr("src", results[i].images.fixed_height_still.url);
                 feelImage.attr("data-still", results[i].images.fixed_height_still.url);
                 feelImage.attr("data-animate", results[i].images.fixed_height.url);
@@ -70,7 +71,6 @@ $(document).ready(function () {
         event.preventDefault();
         var feel = $("#feel-input").val().trim();
         feelArray.push(feel);
-        $("");
         renderButtons();
     });
 
