@@ -41,7 +41,7 @@ $(document).ready(function () {
                 feelDiv.append(p);
                 feelDiv.append(feelImage);
                 $("#gifs-appear-here").prepend(feelDiv);
-                feelImage.addClass("gif mr-10");
+                feelImage.addClass("gif img-fluid");
                 feelImage.attr("src", results[i].images.fixed_height_still.url);
                 feelImage.attr("data-still", results[i].images.fixed_height_still.url);
                 feelImage.attr("data-animate", results[i].images.fixed_height.url);
